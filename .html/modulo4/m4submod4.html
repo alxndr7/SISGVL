@@ -1,0 +1,78 @@
+<br>
+<div class="mod-header">
+    <h3 class="mod-header-label">Validar empadronados de periodo a periodo</h3>
+    <input type="hidden" id="nCodPeriodo">
+</div>
+
+<div id="mod-body1" class="mod-body">
+    <div class="mod-bodyleft">
+        <div class="row">
+            <div class="col-sm-8 col-xs-12">
+                <label class="mod-body-label">Seleccion periodo inicial</label>
+                <select id="selectPeriodoInicio" class="mod-body-input">
+                    <option value="0">-- Seleccione --</option>
+
+                </select>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <label class="mod-body-label">&nbsp;&nbsp;</label>
+                <button type="button" id="crear" class="btn btn-danger" onClick="cargarEmpadronadosInicial()"
+                        title="Validar Beneficiarios"><span class="glyphicon glyphicon-ok"></span> Cargar
+                </button>
+            </div>
+        </div>
+        <label id="msjperiodoinicial" class="mod-body-labeldanger">&bull;Este campo es obligatorio.</label>
+
+    </div>
+    <div class="mod-bodyright">
+
+        <div class="row">
+            <div class="col-sm-8 col-xs-12">
+                <label class="mod-body-label">Seleccion periodo final</label>
+                <select id="selectPeriodoFinal" class="mod-body-input">
+                    <option value="0">-- Seleccione --</option>
+
+                </select>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <label class="mod-body-label">&nbsp;&nbsp;</label>
+                <button type="button" id="crear" class="btn btn-danger" onClick="validarNuevosEmpadronados()"
+                        title="Validar Beneficiarios"><span class="glyphicon glyphicon-ok"></span> Validar
+                </button>
+            </div>
+        </div>
+        <label id="msjperiodofinal" class="mod-body-labeldanger">&bull;Este campo es obligatorio.</label>
+    </div>
+</div>
+
+
+<div id="body2" class="mod-body-hide">
+
+    <div class="mod-body-controls">
+        <div class="row" style="text-align: center">
+            <label id="mod-bodyreport-label10" class="mod-body-label"></label>
+        </div>
+        <table id="tableEmpadronados" class="mod-tablereporte">
+            <thead>
+            <th style="text-align:center" width="20%">Apoderado</th>
+            <th style="text-align:center" width="20%">Ni&ntilde;o</th>
+            <th style="text-align:center" width="20%">Categor&iacute;a</th>
+            <th style="text-align:center" width="20%">Periodo</th>
+            <th style="text-align:center" width="20%">Edad</th>
+            <th style="text-align:center" width="10%">Beneficiado</th>
+
+            </thead>
+            <tbody id="tablebody">
+            </tbody>
+        </table>
+        <label id="msjTabla" class="mod-body-labeldanger">&bull;Debe ingresar por lo menos un insumo</label>
+    </div>
+</div>
+
+
+<div id="mod-footer" class="mod-footer-hide">
+    <button type="button" id="ingresar" class="button btn btn-danger" onClick="validarSubMod2()"><span
+            class="glyphicon glyphicon-ok"></span> Editar Periodo
+    </button>
+</div>
+<br>

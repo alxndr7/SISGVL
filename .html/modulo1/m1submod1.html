@@ -1,0 +1,191 @@
+<br>
+<div class="mod-header">
+
+    <h3 class="mod-header-label">Agregar Apoderado</h3>
+
+</div>
+
+<div id="body1" class="mod-body">
+     <div class="mod-body-controls">
+    <input type="text" id="buscarDniBenef" class="mod-body-input-search" maxlength="8" onkeypress="return soloNumeros(event);" placeholder="Ingrese DNI de Beneficiario">
+    <button type="button" id="buscar2" class="button-search btn btn-warning" onClick="buscarPorDni(1)"><span class="glyphicon glyphicon-search"></span></button>
+    <label>&nbsp;</label>
+    <label id="msjBusquedaDni" class="mod-body-labeldanger">&bull;El Beneficiario ya se encuentra registrado.</label>
+ </div>
+     </div>
+
+<div id="body2" class="mod-body-hide">
+
+    <div class="mod-bodyleft">
+        <div class="mod-body-controls">
+            <label class="mod-body-label">Nombres</label>
+            <!--select id="newvideo" class="mod-body-input" onChange="cambiarVideo(this)">
+                    <option value="0">-- Seleccione --</option>
+                    <option value="1">S&iacute;</option>
+                    <option value="2">No</option>
+            </select>
+            <label id="msjvideo" class="mod-body-labeldanger">&bull; Debe seleccionar una opci&oacute;n</label-->
+            <input type="text" id="cNomApod" class="mod-body-input" placeholder="Nombre Beneficiario">
+            <label id="msjNombre" class="mod-body-labeldanger">&bull;Este campo es obligatorio</label>
+        </div>
+        <div class="mod-body-controls">
+            <label class="mod-body-label">DNI</label>
+            <!--select id="newred" class="mod-body-input" onChange="cambiarRed(this)">
+                    <option value="0">-- Seleccione --</option>
+                    <option value="1">S&iacute;</option>
+                    <option value="2">No</option>
+            </select>
+            <label id="msjred" class="mod-body-labeldanger">&bull; Debe seleccionar una opci&oacute;n</label-->
+            <input type="text" id="cDniApod" class="mod-body-input" placeholder="Ingrese n&uacute;mero de DNI" maxlength="8" onkeypress="return soloNumeros(event);">
+            <label id="msjDni" class="mod-body-labeldanger">&bull;Este campo es obligatorio</label>
+        </div>
+        <div class="mod-body-controls">
+            <label class="mod-body-label">Parentesco</label>
+            <!--select id="newvideo" class="mod-body-input" onChange="cambiarVideo(this)">
+                    <option value="0">-- Seleccione --</option>
+                    <option value="1">S&iacute;</option>
+                    <option value="2">No</option>
+            </select>
+            <label id="msjvideo" class="mod-body-labeldanger">&bull; Debe seleccionar una opci&oacute;n</label-->
+            <input type="text" id="cParentApod" class="mod-body-input" placeholder="Parentesco con Beneficiario">
+            <label id="msjParent" class="mod-body-labeldanger">&bull;Este campo es obligatorio</label>
+        </div>
+        <!--
+            <div class="mod-body-controls">
+                    <label class="mod-body-label">Personal Usuario de Equipo</label>
+                    <input type="number" id="newdniusuario" class="mod-body-input-search" onBlur="limitarDNI(this)" placeholder="Ingrese DNI de Usuario">
+                    <button type="button" id="buscar2" class="button-search btn btn-warning" onClick="buscarPersonal(1,2)"><span class="glyphicon glyphicon-search"></span></button>
+                    <input type="text" id="newcodusuarioequipo" class="mod-body-input hide">
+                    <input type="text" id="newusuarioequipo" class="mod-body-input" placeholder="Usuario de Equipo" readonly>
+                    <label id="msjusuarioequipo" class="mod-body-labeldanger">&bull; Debe ingresar un DNI v&aacute;lido</label>
+            </div>
+            <div class="mod-body-controls">
+                    <label class="mod-body-label">Marca de Equipo</label>
+                    <input type="text" id="newmarcaequipo" class="mod-body-input" placeholder="Marca de Equipo">
+                    <label id="msjmarcaequipo" class="mod-body-labeldanger">&bull; Debe ingresar una marca de equipo</label>
+            </div>
+            <div class="mod-body-controls">
+                    <label class="mod-body-label">Modelo de Equipo</label>
+                    <br>
+                    <input type="text" id="newmodeloequipo" class="mod-body-input" placeholder="Modelo de Equipo">
+                    <label id="msjmodeloequipo" class="mod-body-labeldanger">&bull; Debe ingresar un modelo de equipo</label>
+            </div>
+            <div class="mod-body-controls">
+                    <label class="mod-body-label">Modelo de Placa Madre</label>
+                    <br>
+                    <input type="text" id="newmodeloplaca" class="mod-body-input" placeholder="Modelo de Placa Madre">
+            </div>
+            <div class="mod-body-controls">
+                    <label class="mod-body-label">Modelo de Procesador</label>
+                    <br>
+                    <input type="text" id="newmodeloprocesador" class="mod-body-input" placeholder="Modelo de Procesador">
+            </div>
+            <div class="mod-body-controls">
+                    <label class="mod-body-label">N&uacute;cleos de Procesador</label>
+                    <br>
+                    <input type="number" id="newnucleosprocesador" class="mod-body-input" placeholder="N&uacute;cleos de Procesador">
+            </div>
+            <div class="mod-body-controls">
+                    <label class="mod-body-label">Capacidad de Memoria RAM</label>
+                    <br>
+                    <input type="text" id="newmemoriaram" class="mod-body-input" placeholder="Capacidad de Memoria RAM">
+            </div>
+            <div class="mod-body-controls">
+                    <label class="mod-body-label">Capacidad de Disco Duro</label>
+                    <br>
+                    <input type="text" id="newdiscoduro" class="mod-body-input" placeholder="Capacidad de Disco Duro">
+            </div>-->
+    </div>
+
+    <div class="mod-bodyright">
+        <div class="mod-body-controls">
+            <label class="mod-body-label">Apellidos</label>
+            <!--select id="newvideo" class="mod-body-input" onChange="cambiarVideo(this)">
+                    <option value="0">-- Seleccione --</option>
+                    <option value="1">S&iacute;</option>
+                    <option value="2">No</option>
+            </select>
+            <label id="msjvideo" class="mod-body-labeldanger">&bull; Debe seleccionar una opci&oacute;n</label-->
+            <input type="text" id="cApeApod" class="mod-body-input" placeholder="Apellidos Beneficiario">
+            <label id="msjApe" class="mod-body-labeldanger">&bull;Este campo es obligatorio</label>
+        </div>
+        <div class="mod-body-controls">
+            <label class="mod-body-label">Direcci&oacute;n</label>
+            <!--select id="newred" class="mod-body-input" onChange="cambiarRed(this)">
+                    <option value="0">-- Seleccione --</option>
+                    <option value="1">S&iacute;</option>
+                    <option value="2">No</option>
+            </select>
+            <label id="msjred" class="mod-body-labeldanger">&bull; Debe seleccionar una opci&oacute;n</label-->
+            <input type="text" id="cDirApod" class="mod-body-input" placeholder="Direcci&oacute;n Beneficiario">
+            <label id="msjDir" class="mod-body-labeldanger">&bull;Este campo es obligatorio</label>
+        </div>
+        
+        <div class="mod-body-controls">
+            <label class="mod-body-label">Anexo</label>
+            <select id="nCodAnexo" class="mod-body-input">
+                    <option value="0">-- Seleccione --</option>
+                    <option value="1">San Antonio</option>
+                    <option value="2">Yarabamba</option>
+            </select>
+           
+            
+        </div>
+
+
+        <!--	
+            <div class="mod-body-controls">
+                        <label class="mod-body-label">Modelo de Monitor</label>
+                        <br>
+                        <input type="text" id="newmodelomonitor" class="mod-body-input" placeholder="Modelo de Monitor">
+                </div>
+                <div class="mod-body-controls">
+                        <label class="mod-body-label">Velocidad de Escaneo</label>
+                        <br>
+                        <input type="text" id="newvelocidadescaneo" class="mod-body-input" placeholder="Velocidad de Escaneo">
+                </div>
+                <div class="mod-body-controls">
+                        <label class="mod-body-label">Escaneo ADF?</label>
+                        <select id="newescaner" class="mod-body-input" onChange="">
+                                <option value="0">-- Seleccione --</option>
+                                <option value="1">S&iacute;</option>
+                                <option value="2">No</option>
+                        </select>
+                        <label id="msjescaner" class="mod-body-labeldanger">&bull; Debe seleccionar una opci&oacute;n</label>
+                </div>
+                <div class="mod-body-controls">
+                        <label class="mod-body-label">Velocidad de Impresi&oacute;n</label>
+                        <br>
+                        <input type="text" id="newvelocidadimpresion" class="mod-body-input" placeholder="Velocidad de Impresi&oacute;n">
+                </div>
+                <div class="mod-body-controls">
+                        <label class="mod-body-label">Tipo de Impresora</label>
+                        <select id="newtipoimpresora" class="mod-body-input" onChange="">
+                                <option value="0">-- Seleccione --</option>
+                        </select>
+                        <label id="msjtipoimpresora" class="mod-body-labeldanger">&bull; Debe seleccionar una opci&oacute;n</label>
+                </div>
+                <div class="mod-body-controls">
+                        <label class="mod-body-label">Tipo de Impresi&oacute;n</label>
+                        <select id="newtipoimpresion" class="mod-body-input" onChange="">
+                                <option value="0">-- Seleccione --</option>
+                        </select>
+                        <label id="msjtipoimpresion" class="mod-body-labeldanger">&bull; Debe seleccionar una opci&oacute;n</label>
+                </div>
+                <div class="mod-body-controls">
+                        <label class="mod-body-label">Impresora Multifuncional?</label>
+                        <select id="newmultifuncional" class="mod-body-input" onChange="">
+                                <option value="0">-- Seleccione --</option>
+                                <option value="1">S&iacute;</option>
+                                <option value="2">No</option>
+                        </select>
+                        <label id="msjmultifuncional" class="mod-body-labeldanger">&bull; Debe seleccionar una opci&oacute;n</label>
+                </div>-->
+    </div>
+</div>
+
+
+<div class="mod-footer-hide" id="btnAgregar">
+    <button type="button" id="ingresar" class="button btn btn-danger" onClick="validarSubMod1()"><span class="glyphicon glyphicon-ok"></span>  Agregar Apoderado</button>
+</div>
+<br>

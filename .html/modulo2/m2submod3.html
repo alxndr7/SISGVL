@@ -1,0 +1,107 @@
+<br>
+<div class="mod-header" style="vertical-align: middle">
+    <div class="row">
+        <div class="col-sm-6 col-xs-12" style="vertical-align: middle">
+            <h3 class="mod-header-label">Validar Beneficiarios</h3>
+        </div>
+        <div class="col-sm-3 col-xs-12">
+            </div>
+        <div class="col-sm-3 col-xs-12">
+
+            <a href="https://cel.reniec.gob.pe/valreg/valreg.do?accion=ini" target="_blank"><img src=".res/images/reniec.jpg" width="100" height="45"></a>
+            <a href="http://www.midis.gob.pe/padron/" target="_blank"><img src=".res/images/sisfoh1.png" width="100" height="45"></a>
+        </div>
+    </div>
+</div>
+
+<div id="body1" class="mod-body">
+
+    <div class="mod-bodyleft">
+
+        <div class="row">
+
+            <div class="col-sm-6 col-xs-12">
+                <div class="mod-body-controls">
+                    <label class="mod-body-label">Seleccion periodo:</label>
+                    <select id="selectPeriodo" class="mod-body-input" onChange="cargarMeses(this)">
+                        <option value="0">-- Seleccione --</option>
+
+                    </select>
+                    <label id="msjPeriodo" class="mod-body-labeldanger">&bull; Este campo es obligatorio</label>
+                </div>
+
+            </div>
+            <div class="col-sm-6 col-xs-12">
+                <div class="mod-body-controls">
+                    <label class="mod-body-label">Seleccione mes:</label>
+                    <select id="selectEntrega" class="mod-body-input" onChange="validarCreacionBenef(this)">
+                        <option value="0">-- Seleccione --</option>
+
+                    </select>
+                    <label id="msjEntrega" class="mod-body-labeldanger">&bull; Este campo es obligatorio</label>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="mod-bodyright">
+
+        <div class="row">
+
+            <div class="col-sm-6 col-xs-12" style="text-align: right">
+                <label class="mod-body-label">Beneficiarios:</label>
+
+                <h3><span class="label label-warning" id="cantidad">0</span></h3>
+
+
+            </div>
+            <div class="col-sm-6 col-xs-12" style="text-align: right">
+                <label class="mod-body-label">M&aacute;ximo de Beneficiarios:</label>
+
+                <h3><span class="label label-danger" id="maxBenef">0</span></h3>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div id="body2" class="mod-body-hide">
+    <div class="mod-bodyleft">
+        <div class="mod-body-controls">
+            <label id="lblTabla" class="mod-body-label-tabla">Lista de empadronados, periodo:</label>
+
+        </div>
+    </div>
+    <div class="mod-bodyright">
+        <div class="mod-body-controls" style="text-align: right">
+            <button type="button" id="crear" class="button btn btn-danger" onClick="validarPrueba()"
+                    title="Validar Beneficiarios"><span class="glyphicon glyphicon-ok"></span> Validar
+            </button>
+        </div>
+    </div>
+</div>
+<div id="body3" class="mod-body-hide">
+
+    <div class="mod-body-controls">
+
+        <table id="tableEmpad" class="mod-tablereporte">
+            <thead>
+            <th style="text-align:center" width="20%">Apoderado</th>
+            <th style="text-align:center" width="20%">Ni&ntilde;o</th>
+            <th style="text-align:center" width="20%">Categor&iacute;a</th>
+            <th style="text-align:center" width="20%">Periodo</th>
+            <th style="text-align:center" width="20%">Edad</th>
+            <th style="text-align:center" width="10%">Beneficiado</th>
+
+            </thead>
+            <tbody id="tablebody">
+            </tbody>
+        </table>
+        <label id="msjTabla" class="mod-body-labeldanger">&bull;Debe ingresar por lo menos un insumo</label>
+    </div>
+</div>
+<div class="mod-footer-hide" id="btnAgregar">
+
+</div>
+<br>

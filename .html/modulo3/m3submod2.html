@@ -1,0 +1,40 @@
+<br>
+	<div class="mod-header">
+		<h3 class="mod-header-label">Editar Insumo</h3>
+                <input type="hidden" id="nCodInsumo">
+	</div>
+
+	<div id="mod-body1" class="mod-body">
+		<div id="mod-body1left" class="mod-bodyleft">
+			<div class="mod-body-controls">
+				<label class="mod-body-label">Seleccione Insumo para editar</label>
+				<select id="selecInsumo" class="mod-body-input" onChange="cargarInsumo(this)">
+					<option value="0">-- Seleccione --</option>
+				</select>
+			</div>
+		</div>
+	</div>
+
+	<div id="mod-body2" class="mod-body-hide">
+		<div class="mod-bodyleft">
+			 <div class="mod-body-controls">
+				<label class="mod-body-label">Descripci&oacute;n del Insumo</label>
+				<input type="text" id="cDescInsumo" class="mod-body-input" placeholder="Ingrese nombre del insumo">
+				<label id="msjInsumo" class="mod-body-labeldanger">&bull;Este campo es obligatorio </label>
+			</div>  
+			
+		</div>
+
+		<div id="mod-bodyright" class="mod-bodyright">
+			<div class="mod-body-controls">
+				<label class="mod-body-label">Cantidad de Insumo</label>
+				<input type="text" id="nCantInsumo" class="mod-body-input" maxlength="5" onkeypress="return soloNumeros(event);" placeholder="Cantidad de Insumo">
+				<label id="msjCantidad" class="mod-body-labeldanger">&bull;Este campo es obligatorio</label>
+			</div>
+		</div>
+	</div>
+
+	<div id="mod-footer" class="mod-footer-hide">
+		<button type="button" id="ingresar" class="button btn btn-danger" onClick="validarSubMod2()"><span class="glyphicon glyphicon-ok"></span>  Editar Insumo</button>
+	</div>
+<br>

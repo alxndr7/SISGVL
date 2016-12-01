@@ -1,0 +1,95 @@
+<br id="spaceBlank1">
+<div id="mod-header" class="mod-header">
+	<h3 class="mod-header-label">Reportes</h3>
+	<input type="hidden" id="nCodEntrega">
+</div>
+
+<div id="body1" class="mod-body">
+	<div class="mod-bodyleft">
+		<div class="mod-body-controls">
+			<label class="mod-body-label">Seleccion reporte a ejecutar</label>
+			<select id="selectReporte" class="mod-body-input" onChange="mostrarOpciones4(this)">
+				<option value="0">-- Seleccione --</option>
+				<option value="1">Lista de Personas Empadronadas por Periodo</option>
+
+			</select>
+			<label id="msjReporte" class="mod-body-labeldanger">&bull; Este campo es obligatorio</label>
+		</div>
+		<div class="mod-body-controls">
+			<button type="button" id="mod-btnGenerar" class="button btn btn-warning report-button"
+					title="Generar Reporte" onClick="cargarReporte4()"><span class="glyphicon glyphicon-file"></span>
+			</button>
+			<button type="button" id="mod-btnImprimir" class="button btn btn-danger report-button"
+					title="Imprimir Reporte" onClick="imprimirReporte4()"><span class="glyphicon glyphicon-print"></span>
+			</button>
+		</div>
+	</div>
+
+	<div class="mod-bodyright">
+
+		<div class="row">
+
+			<div class="col-sm-6 col-xs-12">
+
+				<div id="divPeriodo" class="mod-body-controls-hide">
+					<label class="mod-body-label">Seleccion periodo</label>
+					<select id="selectPeriodo" class="mod-body-input" onChange="cargarEntregaPorPeriodo(this)">
+						<option value="0">-- Seleccione --</option>
+
+					</select>
+				</div>
+			</div>
+			<div class="col-sm-6 col-xs-12">
+
+				<div id="divEntrega" class="mod-body-controls-hide">
+					<label class="mod-body-label">Seleccione Mes</label>
+					<select id="selectEntrega" class="mod-body-input">
+						<option value="0">-- Seleccione --</option>
+					</select>
+				</div>
+				<div id="divDni" class="mod-body-controls-hide">
+					<label class="mod-body-label">DNI</label>
+					<input type="text" id="cDniApod" class="mod-body-input" placeholder="Ingrese n&uacute;mero de DNI"
+						   maxlength="8" onkeypress="return soloNumeros(event);">
+				</div>
+
+			</div>
+		</div>
+
+		<label id="msjReporte2" class="mod-body-labeldanger">&bull;Los campos son obligatorios</label>
+
+	</div>
+</div>
+
+
+<div id="body2" class="mod-body-hide">
+	<div class="mod-body-controls">
+		<div class="row" style="text-align: center">
+			<label id="mod-bodyreport-label2" class="mod-body-label">LISTADO DE EMPADRONADOS</label>
+		</div>
+
+		<table id="tablareport2" class="mod-tablereporte">
+			<thead>
+			<th style="text-align:center" width="20%">Apoderado</th>
+			<th style="text-align:center" width="20%">Ni&ntilde;o</th>
+			<th style="text-align:center" width="15%">Categor&iacute;a</th>
+			<th style="text-align:center" width="20%">Edad</th>
+			<th style="text-align:center" width="15%">Beneficiado</th>
+			</thead>
+			<tbody id="tablebody2">
+			</tbody>
+		</table>
+
+	</div>
+</div>
+
+
+
+
+
+<div id="crearEntrega" class="mod-footer-hide">
+	<button type="button" id="crear" class="button btn btn-danger" onClick="validarSubMod4()"><span
+			class="glyphicon glyphicon-ok"></span> Crear
+	</button>
+</div>
+<br id="spaceBlank2">

@@ -1,0 +1,112 @@
+<br>
+<div class="mod-header">
+    <h3 class="mod-header-label">Editar Empadronado</h3>
+    <input type="hidden" id="nCodigo" class="mod-body-input">
+</div>
+
+<div id="mod-body1" class="mod-body">
+    <div class="mod-bodyleft">
+        <div class="row">
+            <div class="col-sm-5 col-xs-12">
+                    <label class="mod-body-label">Seleccion periodo</label>
+                    <select id="selectPeriodoEmp" class="mod-body-input">
+                        <option value="0">-- Seleccione --</option>
+
+                    </select>
+            </div>
+            <div class="col-sm-5 col-xs-12">
+                <label class="mod-body-label">DNI</label>
+                <input type="text" id="buscarDniPers" class="mod-body-input" maxlength="8"
+                       onkeypress="return soloNumeros(event);" placeholder="Ingrese DNI apoderado">
+                </div>
+            <div class="col-sm-2 col-xs-12">
+                <label class="mod-body-label">&nbsp;&nbsp;</label>
+                <button type="button" id="buscar2" class="btn btn-warning" onClick="buscarEmpadronado()">
+                    <span class="glyphicon glyphicon-search"></span></button>
+
+                </div>
+        </div>
+        <label id="msjPeriodoEmp" class="mod-body-labeldanger">&bull;Seleccione periodo al que pertenece el empadronado.</label>
+        <label id="msjBusquedaDni" class="mod-body-labeldanger">&bull;El DNI ingresado a&uacute;n no se
+            encuentra registrado, registrelo antes de editar.</label>
+    </div>
+</div>
+    <div id="body2" class="mod-body-hide">
+        <div class="mod-body-controls">
+            <label id="mod-bodyreport-label" class="mod-body-label">Elija Registro a editar</label>
+            <table id="tablaEditEmpad" class="mod-tablereporte">
+                <thead>
+                <th style="text-align:center" width="5%">Codigo</th>
+                <th style="text-align:center" width="20%">Apoderado</th>
+                <th style="text-align:center" width="20%">Ni&ntilde;o</th>
+                <th style="text-align:center" width="20%">Categor&iacute;a</th>
+                <th style="text-align:center" width="20%">Periodo</th>
+                <th style="text-align:center" width="10%">Editar</th>
+
+                </thead>
+                <tbody id="tablebody">
+                </tbody>
+            </table>
+            <label id="msjTabla" class="mod-body-labeldanger">&bull;Debe ingresar por lo menos un insumo</label>
+
+        </div>
+    </div>
+
+    <div id="body3" class="mod-body-hide">
+        <div class="mod-bodyleft">
+            <div class="mod-body-controls">
+                <input type="hidden" id="nCodApod" class="mod-body-input">
+                <label class="mod-body-label">Nombre Empadronado</label>
+                <input type="text" id="buscarDniEditar" class="mod-body-input-search" maxlength="8"
+                       onkeypress="return soloNumeros(event);" placeholder="Ingrese DNI apoderado">
+                <button type="button" id="buscar1" class="button-search btn btn-warning" onClick="buscarPersona(2)">
+                    <span class="glyphicon glyphicon-search"></span></button>
+                <label id="msjBusquedaDniEditar" class="mod-body-labeldanger">&bull; DNI no se encuentra
+                    Registrado.</label>
+                <input type="text" id="cNomApod" class="mod-body-input" placeholder="Apoderado" readonly>
+                <label id="msjNombre" class="mod-body-labeldanger">&bull;Este campo es obligatorio</label>
+
+            </div>
+            <div class="mod-body-controls">
+                <div class="mod-body-controls">
+                    <input type="hidden" id="nCodCat" class="mod-body-input">
+                    <label class="mod-body-label">Categor&iacute;a</label>
+                    <select id="selectCategoria" class="mod-body-input" onChange="validarCategoria(this)">
+                        <option value="0">-- Seleccione --</option>
+
+                    </select>
+                    <label id="msjCategoria" class="mod-body-labeldanger">&bull; Este campo es obligatorio</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="mod-bodyright">
+            <div class="mod-body-controls">
+                <input type="hidden" id="nCodPeriodo" class="mod-body-input">
+                <label class="mod-body-label">Periodo</label>
+                <select id="selectPeriodo" class="mod-body-input">
+                    <option value="0">-- Seleccione --</option>
+
+                </select>
+                <label id="msjPeriodo" class="mod-body-labeldanger">&bull; Este campo es obligatorio</label>
+            </div>
+            <br><br>
+
+            <div class="mod-body-controls">
+                <input type="hidden" id="nCodInf" class="mod-body-input">
+                <label class="mod-body-label">Ni&ntilde;o Beneficiado</label>
+                <select id="selectInfant" class="mod-body-input">
+                    <option value="0">-- Seleccione --</option>
+
+                </select>
+                <label id="msjInfante" class="mod-body-labeldanger">&bull; Este campo es obligatorio</label>
+            </div>
+        </div>
+    </div>
+
+    <div id="btnAgregar" class="mod-footer-hide">
+        <button type="button" id="ingresar" class="button btn btn-danger" onClick="validarSubMod2()"><span
+                class="glyphicon glyphicon-ok"></span> Editar Empadronado
+        </button>
+    </div>
+    <br>

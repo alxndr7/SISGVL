@@ -1,0 +1,83 @@
+
+<br>
+<div class="mod-header">
+
+    <h3 class="mod-header-label">Agregar Ni&ntilde;o</h3>
+
+</div>
+
+<div id="body1" class="mod-body">
+     <div class="mod-body-controls">
+    <input type="text" id="buscarDniInf" class="mod-body-input-search" maxlength="8" onkeypress="return soloNumeros(event);" placeholder="Ingrese DNI a buscar">
+    <button type="button" id="buscar2" class="button-search btn btn-warning" onClick="buscarPorDniInf(1)"><span class="glyphicon glyphicon-search"></span></button>
+    <label>&nbsp;</label>
+    <label id="msjBusquedaDni" class="mod-body-labeldanger">&bull;El DNI ingresado ya se encuentra registrado.</label>
+ </div>
+     </div>
+
+<div id="body2" class="mod-body-hide">
+
+    <div class="mod-bodyleft">
+        <div class="mod-body-controls">
+            <label class="mod-body-label">Nombres</label>
+            <!--select id="newvideo" class="mod-body-input" onChange="cambiarVideo(this)">
+                    <option value="0">-- Seleccione --</option>
+                    <option value="1">S&iacute;</option>
+                    <option value="2">No</option>
+            </select>
+            <label id="msjvideo" class="mod-body-labeldanger">&bull; Debe seleccionar una opci&oacute;n</label-->
+            <input type="text" id="cNomInfan" class="mod-body-input" placeholder="Nombre Infante">
+            <label id="msjNombre" class="mod-body-labeldanger">&bull;Este campo es obligatorio</label>
+        </div>
+        <div class="mod-body-controls">
+            <label class="mod-body-label">DNI</label>
+            <!--select id="newred" class="mod-body-input" onChange="cambiarRed(this)">
+                    <option value="0">-- Seleccione --</option>
+                    <option value="1">S&iacute;</option>
+                    <option value="2">No</option>
+            </select>
+            <label id="msjred" class="mod-body-labeldanger">&bull; Debe seleccionar una opci&oacute;n</label-->
+            <input type="text" id="cDniInfan" class="mod-body-input" placeholder="Ingrese n&uacute;mero de DNI" maxlength="8" onkeypress="return soloNumeros(event);" readonly="true">
+            <label id="msjDni" class="mod-body-labeldanger">&bull;Este campo es obligatorio</label>
+
+        </div>
+        <div class="mod-body-controls">
+                    <label class="mod-body-label">Buscar DNI Apoderado</label>
+                    <input type="text" id="buscarDniApodInf" class="mod-body-input-search" maxlength="8" onkeypress="return soloNumeros(event);" placeholder="Ingrese DNI apoderado">
+                    <button type="button" id="buscar2" class="button-search btn btn-warning" onClick="buscarApodHij(1)"><span class="glyphicon glyphicon-search"></span></button>
+                    <label id="msjBuscDni" class="mod-body-labeldanger">&bull; Debe ingresar un DNI v&aacute;lido</label>
+            </div>
+    </div>
+
+    <div class="mod-bodyright">
+        <div class="mod-body-controls">
+            <label class="mod-body-label">Apellidos</label>
+            <!--select id="newvideo" class="mod-body-input" onChange="cambiarVideo(this)">
+                    <option value="0">-- Seleccione --</option>
+                    <option value="1">S&iacute;</option>
+                    <option value="2">No</option>
+            </select>
+            <label id="msjvideo" class="mod-body-labeldanger">&bull; Debe seleccionar una opci&oacute;n</label-->
+            <input type="text" id="cApeInfan" class="mod-body-input" placeholder="Apellidos Infante">
+            <label id="msjApe" class="mod-body-labeldanger">&bull;Este campo es obligatorio</label>
+        </div>
+        <div class="mod-body-controls">
+            <label class="mod-body-label">Fecha de Nacimiento</label>
+            <input type="text" id="dFecNacInfan" class="mod-body-input" placeholder="AAAA-MM-DD">
+            <label id="msjNac" class="mod-body-labeldanger">&bull;Este campo es obligatorio</label>
+            <label id="msjValidarFecNac" class="mod-body-labeldanger">&bull;Formato de fecha incorrecto, utilice formato AAAA-MM-DD</label>
+        </div>
+  <div class="mod-body-controls">
+            <label class="mod-body-label">Nombre Apoderado</label>
+            <input type="text" id="nomApod" class="mod-body-input" readonly="true">
+            <label id="msjNombreApod" class="mod-body-labeldanger">&bull;Este campo es obligatorio</label>
+            <input type="hidden" id="nCodApod" class="mod-body-input">
+        </div>
+        
+    </div>
+</div>
+
+<div class="mod-footer-hide" id="btnAgregar">
+    <button type="button" id="ingresar" class="button btn btn-danger" onClick="validarSubMod03()"><span class="glyphicon glyphicon-ok"></span>  Agregar Infante</button>
+</div>
+<br>

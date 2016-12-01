@@ -1,0 +1,58 @@
+<br>
+<div class="mod-header">
+    <h3 class="mod-header-label">Eliminar Empadronado</h3>
+    <input type="hidden" id="nCodigo" class="mod-body-input">
+</div>
+
+<div id="mod-body1" class="mod-body">
+    <div class="mod-body-controls">
+        <div class="row">
+            <div class="col-sm-2 col-xs-12">
+                <input type="text" id="buscarDniPers" class="mod-body-input" maxlength="8"
+                       onkeypress="return soloNumeros(event);" placeholder="Ingrese DNI apoderado">
+                <label id="msjBusquedaDni" class="mod-body-labeldanger">&bull;Este campo es obligatorio</label>
+            </div>
+            <div class="col-sm-2 col-xs-12">
+                <input type="hidden" id="nCodPeriodo" class="mod-body-input">
+                <select id="selectPeriodo" class="mod-body-input">
+                    <option value="0">-- Periodo --</option>
+
+                </select>
+                <label id="msjPeriodo" class="mod-body-labeldanger">&bull; Este campo es obligatorio</label>
+            </div>
+
+            <div class="col-sm-2 col-xs-12">
+                <button type="button" id="buscar2" class="button btn btn-warning"
+                        onClick="buscarEmpadronadoElimnar()"><span class="glyphicon glyphicon-search"></span></button>
+                <label>&nbsp;</label>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="body2" class="mod-body-hide">
+    <div class="mod-body-controls">
+        <label id="mod-bodyreport-label" class="mod-body-label">Elija Registro a editar</label>
+        <table id="tablaEditEmpad" class="mod-tablereporte">
+            <thead>
+            <th style="text-align:center" width="5%">Codigo</th>
+            <th style="text-align:center" width="20%">Apoderado</th>
+            <th style="text-align:center" width="20%">Ni&ntilde;o</th>
+            <th style="text-align:center" width="20%">Categor&iacute;a</th>
+            <th style="text-align:center" width="20%">Periodo</th>
+            <th style="text-align:center" width="10%">Eliminar</th>
+
+            </thead>
+            <tbody id="tablebody">
+            </tbody>
+        </table>
+
+    </div>
+</div>
+<div id="body3" class="mod-body-hide">
+    <div class="mod-body-controls">
+        <label id="mod-bodyreport-label1" class="mod-body-label">No se encuentra DNI de empadronado en el periodo indicado.</label>
+    </div>
+</div>
+<br>

@@ -1,0 +1,28 @@
+<br>
+	<div class="mod-header">
+		<h3 class="mod-header-label">Agregar Insumo</h3>
+	</div>
+
+	<div class="mod-body">
+		<div class="mod-bodyleft">
+                        <div class="mod-body-controls">
+				<label class="mod-body-label">Descripci&oacute;n del Insumo</label>
+				<input type="text" id="cDescInsumo" class="mod-body-input" placeholder="Ingrese nombre del insumo">
+				<label id="msjInsumo" class="mod-body-labeldanger">&bull;Este campo es obligatorio </label>
+			</div>  
+		</div>
+
+		<div class="mod-bodyright">
+
+			<div class="mod-body-controls">
+				<label class="mod-body-label">Cantidad Inicial de Insumos</label>
+				<input type="text" id="nCantInsumo" class="mod-body-input" maxlength="5" onkeypress="return soloNumeros(event);" placeholder="Cantidad de Insumo">
+				<label id="msjCantidad" class="mod-body-labeldanger">&bull;Este campo es obligatorio</label>
+			</div>
+		</div>
+	</div>
+
+	<div class="mod-footer">
+		<button type="button" id="ingresar" class="button btn btn-danger" onClick="validarSubMod1()"><span class="glyphicon glyphicon-ok"></span>  Agregar Insumo</button>
+	</div>
+<br>

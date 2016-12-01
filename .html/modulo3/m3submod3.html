@@ -1,0 +1,61 @@
+<br>
+<div class="mod-header">
+    <h3 class="mod-header-label">Crear Raci&oacute;n por Periodo</h3>
+</div>
+
+<div id="mod-body1" class="mod-body">
+    <div id="mod-body1left" class="mod-bodyleft">
+        <div class="mod-body-controls">
+            <label class="mod-body-label">Seleccione Periodo</label>
+            <select id="selectPeriodo" class="mod-body-input" onChange="cargarCreacionRacion(this)">
+                <option value="0">-- Seleccione --</option>
+            </select>
+            <label id="msjPeriodo" class="mod-body-labeldanger">&bull;Este campo es obligatorio</label>
+        </div>
+    </div>
+</div>
+
+<div id="mod-body2" class="mod-body-hide">
+    <div class="mod-bodyleft">
+        <div class="mod-body-controls">
+            <label class="mod-body-label">Seleccione Insumo</label>
+            <select id="selecInsumoRac" class="mod-body-input">
+                <option value="0">-- Seleccione --</option>
+            </select>
+            <label id="msjInsumoRac" class="mod-body-labeldanger">&bull;Este campo es obligatorio</label>
+        </div>
+        <div class="mod-body-controls">
+            <label class="mod-body-label">Cantidad&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="number" id="nCantRac" class="mod-body-input-search" onkeypress="return soloNumeros(event);" placeholder="0">
+            <button type="button" id="buscar1" title="Agregar a raci&oacute;n" class="button-search btn btn-warning" onClick="agregarElemento()"><span class="glyphicon glyphicon-plus"></span></button>
+            <label id="msjCantidad" class="mod-body-labeldanger">&bull;Este campo es obligatorio</label>
+        </div>  
+
+
+
+
+    </div>
+
+    <div id="mod-bodyright" class="mod-bodyright">
+        <div class="mod-body-controls">
+            <label id="mod-bodyreport-label" class="mod-body-label">Insumos de la raci&oacute;n:</label>
+            <table id="tablaInsumos" class="mod-tableInsumos">
+                <thead>
+                <th style="text-align:center" width="70%">Descripci&oacute;n</th>
+                <th style="text-align:center" width="10%">Cantidad</th>
+                <th style="text-align:center" width="10%">Remover</th>
+
+                </thead>
+                <tbody id="tablebody">
+                </tbody>
+            </table>
+             <label id="msjTabla" class="mod-body-labeldanger">&bull;Debe ingresar por lo menos un insumo</label>
+            
+        </div>
+    </div>
+</div>
+
+<div class="mod-footer">
+    <button type="button" id="ingresar" class="button btn btn-danger" onClick="validarSubMod3()"><span class="glyphicon glyphicon-ok"></span>  Crear Raci&oacute;n</button>
+</div>
+<br>

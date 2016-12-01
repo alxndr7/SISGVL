@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1123cfeb-74c2-47d7-9855-56a013f77d22" name="Default" comment="" />
+    <ignored path="SISGVL.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="SISGVL" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="linkModulo2.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.lib/modulo2/linkModulo2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="174" column="28" selection-start-line="174" selection-start-column="22" selection-end-line="174" selection-end-column="28" />
+              <folding>
+                <marker date="1480524273904" expanded="true" signature="268:338" placeholder="select * fro..mPeriodo..." />
+                <marker date="1480524273904" expanded="true" signature="612:656" placeholder="select * fro..mCategoria..." />
+                <marker date="1480524273904" expanded="true" signature="1152:1222" placeholder="select * fro..mPeriodo..." />
+                <marker date="1480524273904" expanded="true" signature="1496:1540" placeholder="select * fro..mCategoria..." />
+                <marker date="1480524273904" expanded="true" signature="2036:2106" placeholder="select * fro..mPeriodo..." />
+                <marker date="1480524273904" expanded="true" signature="2619:2689" placeholder="select * fro..mPeriodo..." />
+                <marker date="1480524273904" expanded="true" signature="3351:3533" placeholder="insert into `${BASEDATOS}`.mEmpadronado..." />
+                <marker date="1480524273904" expanded="true" signature="3963:4079" placeholder="select nCodi..dentrega..." />
+                <marker date="1480524273904" expanded="true" signature="4573:4884" placeholder="insert into `${BASEDATOS}`.dbeneficiario..." />
+                <marker date="1480524273904" expanded="true" signature="4697:4884" placeholder="select nCodi..mempadronado..." />
+                <marker date="1480524273904" expanded="true" signature="6361:6428" placeholder="select * fro..mApoderado..." />
+                <marker date="1480524273904" expanded="true" signature="6722:6780" placeholder="select * fro..mInfante..." />
+                <marker date="1480524273904" expanded="true" signature="7370:8078" placeholder="select emp.n..mempadronado..." />
+                <marker date="1480524273904" expanded="true" signature="7968:8054" placeholder="select ncodi..mapoderado..." />
+                <marker date="1480524273904" expanded="true" signature="8537:8595" placeholder="select * fro..mInfante..." />
+                <marker date="1480524273904" expanded="true" signature="9198:9811" placeholder="select emp.n..mempadronado..." />
+                <marker date="1480524273904" expanded="true" signature="10180:10261" placeholder="select * fro..mInfante..." />
+                <marker date="1480524273904" expanded="true" signature="10814:11962" placeholder="select benef..." />
+                <marker date="1480524273904" expanded="true" signature="12384:12585" placeholder="select i.nCo..tracion..." />
+                <marker date="1480524273904" expanded="true" signature="13158:14321" placeholder="select benef..." />
+                <marker date="1480524273904" expanded="true" signature="14757:14958" placeholder="select i.nCo..tracion..." />
+                <marker date="1480524273904" expanded="true" signature="15552:16839" placeholder="select benef..." />
+                <marker date="1480524273904" expanded="true" signature="17289:17490" placeholder="select i.nCo..tracion..." />
+                <marker date="1480524273904" expanded="true" signature="18088:19375" placeholder="select benef..." />
+                <marker date="1480524273904" expanded="true" signature="19825:20026" placeholder="select i.nCo..tracion..." />
+                <marker date="1480524273904" expanded="true" signature="20614:21777" placeholder="select benef..." />
+                <marker date="1480524273904" expanded="true" signature="22213:22414" placeholder="select i.nCo..tracion..." />
+                <marker date="1480524273904" expanded="true" signature="22997:24156" placeholder="select emp.n..." />
+                <marker date="1480524273904" expanded="true" signature="24930:26872" placeholder="select benef..." />
+                <marker date="1480524273904" expanded="true" signature="25229:25350" placeholder="/*, (select ..." />
+                <marker date="1480524273904" expanded="true" signature="27484:27685" placeholder="select i.nCo..tracion..." />
+                <marker date="1480524273904" expanded="true" signature="30003:30074" placeholder="select nCodI..tracion..." />
+                <marker date="1480524273904" expanded="true" signature="31221:31292" placeholder="select nCodI..tracion..." />
+                <marker date="1480524273904" expanded="true" signature="32229:32418" placeholder="select i.nCo..tracion..." />
+                <marker date="1480524273904" expanded="true" signature="32984:33207" placeholder="select i.nCo..tracion..." />
+                <marker date="1480524273904" expanded="true" signature="33744:33835" placeholder="select * fro..mPeriodo..." />
+                <marker date="1480524273904" expanded="true" signature="34397:34665" placeholder="select ent.n..dentrega..." />
+                <marker date="1480524273904" expanded="true" signature="35271:35539" placeholder="select ent.n..dentrega..." />
+                <marker date="1480524273904" expanded="true" signature="36107:36199" placeholder="select count..dbeneficiario..." />
+                <marker date="1480524273904" expanded="true" signature="36714:37857" placeholder="select apod...." />
+                <marker date="1480524273904" expanded="true" signature="38303:38550" placeholder="SELECT rac.n..tracion..." />
+                <marker date="1480524273904" expanded="true" signature="39118:40360" placeholder="select apod...." />
+                <marker date="1480524273904" expanded="true" signature="40815:41062" placeholder="SELECT rac.n..tracion..." />
+                <marker date="1480524273904" expanded="true" signature="41592:41687" placeholder="delete from ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="linkModulo1.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.lib/modulo1/linkModulo1.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.33275864">
+              <caret line="325" column="28" selection-start-line="325" selection-start-column="22" selection-end-line="325" selection-end-column="28" />
+              <folding>
+                <marker date="1480536169535" expanded="true" signature="241:282" placeholder="select * fro..mCategorias..." />
+                <marker date="1480536169535" expanded="true" signature="472:517" placeholder="select * fro..mTipoImpresoras..." />
+                <marker date="1480536169535" expanded="true" signature="715:759" placeholder="select * fro..mTipoImpresion..." />
+                <marker date="1480536169535" expanded="true" signature="1188:1229" placeholder="select * fro..mCategorias..." />
+                <marker date="1480536169535" expanded="true" signature="1417:1462" placeholder="select * fro..mTipoImpresoras..." />
+                <marker date="1480536169535" expanded="true" signature="1660:1704" placeholder="select * fro..mTipoImpresion..." />
+                <marker date="1480536169535" expanded="true" signature="2136:2177" placeholder="select * fro..mCategorias..." />
+                <marker date="1480536169535" expanded="true" signature="2603:2644" placeholder="select * fro..mCategorias..." />
+                <marker date="1480536169535" expanded="true" signature="3064:3105" placeholder="select * fro..mCategorias..." />
+                <marker date="1480536169535" expanded="true" signature="3543:3660" placeholder="select nCodi..mPersonal..." />
+                <marker date="1480536169535" expanded="true" signature="4531:4679" placeholder="insert into `${BASEDATOS}`.mApoderado..." />
+                <marker date="1480536169535" expanded="true" signature="5465:5602" placeholder="insert into `${BASEDATOS}`.mInfante..." />
+                <marker date="1480536169535" expanded="true" signature="5931:6182" placeholder="select nCodi..mEquipos..." />
+                <marker date="1480536169535" expanded="true" signature="6040:6115" placeholder="select cCarg..mPersonal..." />
+                <marker date="1480536169535" expanded="true" signature="6684:7775" placeholder="select nCodC..mEquipos..." />
+                <marker date="1480536169535" expanded="true" signature="6746:6819" placeholder="select cDni ..mpersonal..." />
+                <marker date="1480536169535" expanded="true" signature="6838:6913" placeholder="select cCarg..mpersonal..." />
+                <marker date="1480536169535" expanded="true" signature="6934:7011" placeholder="select cNomb..mpersonal..." />
+                <marker date="1480536169535" expanded="true" signature="7059:7132" placeholder="select cDni ..mpersonal..." />
+                <marker date="1480536169535" expanded="true" signature="7151:7226" placeholder="select cCarg..mpersonal..." />
+                <marker date="1480536169535" expanded="true" signature="7247:7324" placeholder="select cNomb..mpersonal..." />
+                <marker date="1480536169535" expanded="true" signature="10686:10947" placeholder="select nCodi..tEquiposSoftware..." />
+                <marker date="1480536169535" expanded="true" signature="10764:10843" placeholder="select cDesc..mSoftware..." />
+                <marker date="1480536169535" expanded="true" signature="11158:11275" placeholder="select nCodi..mSoftware..." />
+                <marker date="1480536169535" expanded="true" signature="11738:11957" placeholder="select nCodi..tEquiposSoftware..." />
+                <marker date="1480536169535" expanded="true" signature="11787:11866" placeholder="select cDesc..mSoftware..." />
+                <marker date="1480536169535" expanded="true" signature="12505:12634" placeholder="insert into `${BASEDATOS}`.tEquiposSoftware..." />
+                <marker date="1480536169535" expanded="true" signature="13013:13130" placeholder="select count..tEquiposSoftware..." />
+                <marker date="1480536169535" expanded="true" signature="13543:13602" placeholder="delete from ..." />
+                <marker date="1480536169535" expanded="true" signature="13972:14702" placeholder="select nCodi..mEquipos..." />
+                <marker date="1480536169535" expanded="true" signature="14028:14108" placeholder="select cDesc..mCategorias..." />
+                <marker date="1480536169535" expanded="true" signature="14160:14237" placeholder="select cNomb..mPersonal..." />
+                <marker date="1480536169535" expanded="true" signature="14284:14361" placeholder="select cNomb..mPersonal..." />
+                <marker date="1480536169535" expanded="true" signature="15156:15800" placeholder="select nCodi..mEquipos..." />
+                <marker date="1480536169535" expanded="true" signature="15212:15292" placeholder="select cDesc..mCategorias..." />
+                <marker date="1480536169535" expanded="true" signature="15344:15421" placeholder="select cNomb..mPersonal..." />
+                <marker date="1480536169535" expanded="true" signature="15468:15545" placeholder="select cNomb..mPersonal..." />
+                <marker date="1480536169535" expanded="true" signature="16181:16769" placeholder="select nCodi..mEquipos..." />
+                <marker date="1480536169535" expanded="true" signature="16237:16317" placeholder="select cDesc..mCategorias..." />
+                <marker date="1480536169535" expanded="true" signature="16369:16446" placeholder="select cNomb..mPersonal..." />
+                <marker date="1480536169535" expanded="true" signature="16493:16570" placeholder="select cNomb..mPersonal..." />
+                <marker date="1480536169535" expanded="true" signature="17109:18001" placeholder="select nCodi..mEquipos..." />
+                <marker date="1480536169535" expanded="true" signature="17165:17245" placeholder="select cDesc..mCategorias..." />
+                <marker date="1480536169535" expanded="true" signature="17297:17374" placeholder="select cNomb..mPersonal..." />
+                <marker date="1480536169535" expanded="true" signature="17421:17498" placeholder="select cNomb..mPersonal..." />
+                <marker date="1480536169535" expanded="true" signature="17608:17696" placeholder="select cDesc..mTipoImpresoras..." />
+                <marker date="1480536169535" expanded="true" signature="17753:17840" placeholder="select cDesc..mTipoImpresion..." />
+                <marker date="1480536169535" expanded="true" signature="18397:19127" placeholder="select nCodi..mEquipos..." />
+                <marker date="1480536169535" expanded="true" signature="18453:18533" placeholder="select cDesc..mCategorias..." />
+                <marker date="1480536169535" expanded="true" signature="18585:18662" placeholder="select cNomb..mPersonal..." />
+                <marker date="1480536169535" expanded="true" signature="18709:18786" placeholder="select cNomb..mPersonal..." />
+                <marker date="1480536169535" expanded="true" signature="19570:20110" placeholder="select nCodi..mEquipos..." />
+                <marker date="1480536169535" expanded="true" signature="19626:19706" placeholder="select cDesc..mCategorias..." />
+                <marker date="1480536169535" expanded="true" signature="19758:19835" placeholder="select cNomb..mPersonal..." />
+                <marker date="1480536169535" expanded="true" signature="19882:19959" placeholder="select cNomb..mPersonal..." />
+                <marker date="1480536169535" expanded="true" signature="20662:20725" placeholder="select * fro..mApoderado..." />
+                <marker date="1480536169535" expanded="true" signature="21259:21577" placeholder="select i.nCo..mInfante..." />
+                <marker date="1480536169535" expanded="true" signature="22089:22349" placeholder="select apod...mApoderado..." />
+                <marker date="1480536169535" expanded="true" signature="22775:23180" placeholder="select inf.c..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="linkModulo4.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.lib/modulo4/linkModulo4.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="201" column="28" selection-start-line="201" selection-start-column="22" selection-end-line="201" selection-end-column="28" />
+              <folding>
+                <marker date="1479921033889" expanded="true" signature="247:288" placeholder="select * fro..mCategorias..." />
+                <marker date="1479921033889" expanded="true" signature="717:776" placeholder="select * fro..mPeriodo..." />
+                <marker date="1479921033889" expanded="true" signature="1202:1262" placeholder="select * fro..mPeriodo..." />
+                <marker date="1479921033889" expanded="true" signature="1665:1822" placeholder="select * fro..mPeriodo..." />
+                <marker date="1479921033889" expanded="true" signature="1722:1797" placeholder="select nCodP..mempadronado..." />
+                <marker date="1479921033889" expanded="true" signature="2019:2078" placeholder="select * fro..mPeriodo..." />
+                <marker date="1479921033889" expanded="true" signature="2587:2719" placeholder="insert into `${BASEDATOS}`.mPeriodo..." />
+                <marker date="1479921033889" expanded="true" signature="3380:3518" placeholder="insert into `${BASEDATOS}`.dEntrega..." />
+                <marker date="1479921033889" expanded="true" signature="4011:4156" placeholder="select nCodi..mPeriodo..." />
+                <marker date="1479921033889" expanded="true" signature="5163:5302" placeholder="select nCodA..mPersonal..." />
+                <marker date="1479921033889" expanded="true" signature="6413:6504" placeholder="select * fro..mPeriodo..." />
+                <marker date="1479921033889" expanded="true" signature="6976:8135" placeholder="select emp.n..." />
+                <marker date="1479921033889" expanded="true" signature="8851:10010" placeholder="select emp.n..." />
+                <marker date="1479921033889" expanded="true" signature="10698:10762" placeholder="delete from ..." />
+                <marker date="1479921033889" expanded="true" signature="10827:11090" placeholder="insert into `${BASEDATOS}`.mempadronado..." />
+                <marker date="1479921033889" expanded="true" signature="10958:11090" placeholder="select nCodA..mempadronado..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="linkModulo3.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.lib/modulo3/linkModulo3.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="424" column="28" selection-start-line="424" selection-start-column="22" selection-end-line="424" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.lib/_config.php" />
+        <option value="$PROJECT_DIR$/.html/main.html" />
+        <option value="$PROJECT_DIR$/.html/modulo3.html" />
+        <option value="$PROJECT_DIR$/.html/modulo2/m2submod7.html" />
+        <option value="$PROJECT_DIR$/.html/modulo2.html" />
+        <option value="$PROJECT_DIR$/.lib/modulo3/linkModulo3.php" />
+        <option value="$PROJECT_DIR$/.js/modulo3.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/.css/class.css" />
+        <option value="$PROJECT_DIR$/.html/modulo3/m3submod3.html" />
+        <option value="$PROJECT_DIR$/.html/modulo4.html" />
+        <option value="$PROJECT_DIR$/.html/modulo2/m2submod3.html" />
+        <option value="$PROJECT_DIR$/.lib/modulo4/linkModulo4.php" />
+        <option value="$PROJECT_DIR$/.js/modulo4.js" />
+        <option value="$PROJECT_DIR$/.js/main.js" />
+        <option value="$PROJECT_DIR$/.js/index.js" />
+        <option value="$PROJECT_DIR$/.html/modulo1/m1submod1.html" />
+        <option value="$PROJECT_DIR$/.html/modulo1/m1submod2.html" />
+        <option value="$PROJECT_DIR$/.html/modulo1/m1submod3.html" />
+        <option value="$PROJECT_DIR$/.html/modulo1/m1submod5.html" />
+        <option value="$PROJECT_DIR$/.html/modulo2/m2submod1.html" />
+        <option value="$PROJECT_DIR$/.html/modulo2/m2submod2.html" />
+        <option value="$PROJECT_DIR$/.html/modulo2/m2submod4.html" />
+        <option value="$PROJECT_DIR$/.html/modulo2/m2submod6.html" />
+        <option value="$PROJECT_DIR$/.html/modulo3/m3submod1.html" />
+        <option value="$PROJECT_DIR$/.html/modulo3/m3submod2.html" />
+        <option value="$PROJECT_DIR$/.html/modulo3/m3submod5.html" />
+        <option value="$PROJECT_DIR$/.html/modulo3/m3submod6.html" />
+        <option value="$PROJECT_DIR$/.html/modulo4/m4submod1.html" />
+        <option value="$PROJECT_DIR$/.html/modulo4/m4submod2.html" />
+        <option value="$PROJECT_DIR$/.html/modulo4/m4submod4.html" />
+        <option value="$PROJECT_DIR$/.html/modulo3/m3submod4.html" />
+        <option value="$PROJECT_DIR$/.html/modulo4/m4submod3.html" />
+        <option value="$PROJECT_DIR$/.html/modulo2/m2submod5.html" />
+        <option value="$PROJECT_DIR$/.lib/modulo2/linkModulo2.php" />
+        <option value="$PROJECT_DIR$/.js/modulo2.js" />
+        <option value="$PROJECT_DIR$/.js/modulo1.js" />
+        <option value="$PROJECT_DIR$/.html/modulo1/m1submod4.html" />
+        <option value="$PROJECT_DIR$/.lib/modulo1/linkModulo1.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SISGVL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SISGVL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SISGVL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SISGVL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SISGVL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nbproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SISGVL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SISGVL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SISGVL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SISGVL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".settings" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SISGVL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SISGVL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SISGVL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SISGVL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SISGVL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SISGVL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SISGVL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SISGVL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modulo4" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SISGVL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SISGVL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modulo3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SISGVL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SISGVL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modulo2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SISGVL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SISGVL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modulo1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SISGVL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SISGVL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../template" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\SISGVL\.html\modulo4" />
+      <recent name="C:\xampp\htdocs\SISGVL\.html\modulo2" />
+      <recent name="C:\xampp\htdocs\SISGVL\.html\modulo3" />
+      <recent name="C:\xampp\htdocs\SISGVL\.css" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1123cfeb-74c2-47d7-9855-56a013f77d22" name="Default" comment="" />
+      <created>1477492498358</created>
+      <option name="number" value="Default" />
+      <updated>1477492498358</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22547585" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32492113" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20801815" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.html/modulo4/m4submod1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="10" selection-start-line="21" selection-start-column="4" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.js/modulo4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="400" column="5" selection-start-line="400" selection-start-column="5" selection-end-line="400" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.js/modulo2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1068" column="30" selection-start-line="1068" selection-start-column="18" selection-end-line="1068" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.lib/modulo2/linkModulo2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.js/modulo2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.html/modulo2/m2submod4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.html/modulo4/m4submod1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.js/modulo4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="400" column="5" selection-start-line="400" selection-start-column="5" selection-end-line="400" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.res/images/muni_yarabamba_logo1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.css/classbackup.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4578097">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.lib/_config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7414722">
+          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.html/modulo1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.html/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18312387">
+          <caret line="6" column="132" selection-start-line="6" selection-start-column="112" selection-end-line="6" selection-end-column="132" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.lib/linkIndex.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="47.23077">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.html/modulo3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11724138">
+          <caret line="4" column="90" selection-start-line="4" selection-start-column="90" selection-end-line="4" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.html/modulo2/m2submod7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.html/modulo2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17586207">
+          <caret line="6" column="117" selection-start-line="6" selection-start-column="117" selection-end-line="6" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="81" column="87" selection-start-line="81" selection-start-column="87" selection-end-line="81" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.js/modulo3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.028052805">
+          <caret line="857" column="9" selection-start-line="857" selection-start-column="9" selection-end-line="857" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.css/class.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.3461537">
+          <caret line="55" column="1" selection-start-line="55" selection-start-column="1" selection-end-line="55" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.html/modulo3/m3submod3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76551723">
+          <caret line="58" column="148" selection-start-line="58" selection-start-column="148" selection-end-line="58" selection-end-column="148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.html/modulo2/m2submod3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5769231">
+          <caret line="71" column="101" selection-start-line="71" selection-start-column="10" selection-end-line="71" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.html/modulo4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11724138">
+          <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.js/modulo4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4669967">
+          <caret line="873" column="18" selection-start-line="873" selection-start-column="18" selection-end-line="873" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5511551">
+          <caret line="144" column="9" selection-start-line="144" selection-start-column="9" selection-end-line="144" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.084158">
+          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.html/modulo1/m1submod1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.153846">
+          <caret line="188" column="62" selection-start-line="188" selection-start-column="62" selection-end-line="188" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.html/modulo1/m1submod2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.153846">
+          <caret line="189" column="62" selection-start-line="189" selection-start-column="62" selection-end-line="189" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.html/modulo1/m1submod5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537">
+          <caret line="112" column="59" selection-start-line="112" selection-start-column="59" selection-end-line="112" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.html/modulo2/m2submod1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.153846">
+          <caret line="62" column="62" selection-start-line="62" selection-start-column="62" selection-end-line="62" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.html/modulo2/m2submod2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.846154">
+          <caret line="107" column="66" selection-start-line="107" selection-start-column="66" selection-end-line="107" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.html/modulo2/m2submod4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.153846">
+          <caret line="77" column="59" selection-start-line="77" selection-start-column="59" selection-end-line="77" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.html/modulo4/m4submod3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.110345">
+          <caret line="72" column="68" selection-start-line="72" selection-start-column="68" selection-end-line="72" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.html/modulo4/m4submod2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76551723">
+          <caret line="44" column="66" selection-start-line="44" selection-start-column="66" selection-end-line="44" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.html/modulo4/m4submod1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76551723">
+          <caret line="33" column="66" selection-start-line="33" selection-start-column="66" selection-end-line="33" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.html/modulo3/m3submod6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.70689654">
+          <caret line="56" column="66" selection-start-line="56" selection-start-column="66" selection-end-line="56" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.html/modulo3/m3submod5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.70689654">
+          <caret line="106" column="59" selection-start-line="106" selection-start-column="59" selection-end-line="106" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.html/modulo3/m3submod2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76551723">
+          <caret line="37" column="66" selection-start-line="37" selection-start-column="66" selection-end-line="37" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.html/modulo3/m3submod1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.73275864">
+          <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.html/modulo2/m2submod6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.70689654">
+          <caret line="76" column="59" selection-start-line="76" selection-start-column="59" selection-end-line="76" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.html/modulo3/m3submod4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.029310346">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.html/modulo4/m4submod4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.70689654">
+          <caret line="73" column="62" selection-start-line="73" selection-start-column="62" selection-end-line="73" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.js/modulo2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6419142">
+          <caret line="2646" column="18" selection-start-line="2646" selection-start-column="18" selection-end-line="2646" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.html/modulo2/m2submod5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61551726">
+          <caret line="27" column="64" selection-start-line="27" selection-start-column="64" selection-end-line="27" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.js/modulo1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.74523395">
+          <caret line="1189" column="31" selection-start-line="1189" selection-start-column="18" selection-end-line="1189" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.html/modulo1/m1submod3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42931035">
+          <caret line="67" column="139" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.html/modulo1/m1submod4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75317603">
+          <caret line="80" column="92" selection-start-line="80" selection-start-column="92" selection-end-line="80" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.lib/modulo4/linkModulo4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="201" column="28" selection-start-line="201" selection-start-column="22" selection-end-line="201" selection-end-column="28" />
+          <folding>
+            <marker date="1479921033889" expanded="true" signature="247:288" placeholder="select * fro..mCategorias..." />
+            <marker date="1479921033889" expanded="true" signature="717:776" placeholder="select * fro..mPeriodo..." />
+            <marker date="1479921033889" expanded="true" signature="1202:1262" placeholder="select * fro..mPeriodo..." />
+            <marker date="1479921033889" expanded="true" signature="1665:1822" placeholder="select * fro..mPeriodo..." />
+            <marker date="1479921033889" expanded="true" signature="1722:1797" placeholder="select nCodP..mempadronado..." />
+            <marker date="1479921033889" expanded="true" signature="2019:2078" placeholder="select * fro..mPeriodo..." />
+            <marker date="1479921033889" expanded="true" signature="2587:2719" placeholder="insert into `${BASEDATOS}`.mPeriodo..." />
+            <marker date="1479921033889" expanded="true" signature="3380:3518" placeholder="insert into `${BASEDATOS}`.dEntrega..." />
+            <marker date="1479921033889" expanded="true" signature="4011:4156" placeholder="select nCodi..mPeriodo..." />
+            <marker date="1479921033889" expanded="true" signature="5163:5302" placeholder="select nCodA..mPersonal..." />
+            <marker date="1479921033889" expanded="true" signature="6413:6504" placeholder="select * fro..mPeriodo..." />
+            <marker date="1479921033889" expanded="true" signature="6976:8135" placeholder="select emp.n..." />
+            <marker date="1479921033889" expanded="true" signature="8851:10010" placeholder="select emp.n..." />
+            <marker date="1479921033889" expanded="true" signature="10698:10762" placeholder="delete from ..." />
+            <marker date="1479921033889" expanded="true" signature="10827:11090" placeholder="insert into `${BASEDATOS}`.mempadronado..." />
+            <marker date="1479921033889" expanded="true" signature="10958:11090" placeholder="select nCodA..mempadronado..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.lib/modulo3/linkModulo3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="424" column="28" selection-start-line="424" selection-start-column="22" selection-end-line="424" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.lib/modulo2/linkModulo2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="174" column="28" selection-start-line="174" selection-start-column="22" selection-end-line="174" selection-end-column="28" />
+          <folding>
+            <marker date="1480524273904" expanded="true" signature="268:338" placeholder="select * fro..mPeriodo..." />
+            <marker date="1480524273904" expanded="true" signature="612:656" placeholder="select * fro..mCategoria..." />
+            <marker date="1480524273904" expanded="true" signature="1152:1222" placeholder="select * fro..mPeriodo..." />
+            <marker date="1480524273904" expanded="true" signature="1496:1540" placeholder="select * fro..mCategoria..." />
+            <marker date="1480524273904" expanded="true" signature="2036:2106" placeholder="select * fro..mPeriodo..." />
+            <marker date="1480524273904" expanded="true" signature="2619:2689" placeholder="select * fro..mPeriodo..." />
+            <marker date="1480524273904" expanded="true" signature="3351:3533" placeholder="insert into `${BASEDATOS}`.mEmpadronado..." />
+            <marker date="1480524273904" expanded="true" signature="3963:4079" placeholder="select nCodi..dentrega..." />
+            <marker date="1480524273904" expanded="true" signature="4573:4884" placeholder="insert into `${BASEDATOS}`.dbeneficiario..." />
+            <marker date="1480524273904" expanded="true" signature="4697:4884" placeholder="select nCodi..mempadronado..." />
+            <marker date="1480524273904" expanded="true" signature="6361:6428" placeholder="select * fro..mApoderado..." />
+            <marker date="1480524273904" expanded="true" signature="6722:6780" placeholder="select * fro..mInfante..." />
+            <marker date="1480524273904" expanded="true" signature="7370:8078" placeholder="select emp.n..mempadronado..." />
+            <marker date="1480524273904" expanded="true" signature="7968:8054" placeholder="select ncodi..mapoderado..." />
+            <marker date="1480524273904" expanded="true" signature="8537:8595" placeholder="select * fro..mInfante..." />
+            <marker date="1480524273904" expanded="true" signature="9198:9811" placeholder="select emp.n..mempadronado..." />
+            <marker date="1480524273904" expanded="true" signature="10180:10261" placeholder="select * fro..mInfante..." />
+            <marker date="1480524273904" expanded="true" signature="10814:11962" placeholder="select benef..." />
+            <marker date="1480524273904" expanded="true" signature="12384:12585" placeholder="select i.nCo..tracion..." />
+            <marker date="1480524273904" expanded="true" signature="13158:14321" placeholder="select benef..." />
+            <marker date="1480524273904" expanded="true" signature="14757:14958" placeholder="select i.nCo..tracion..." />
+            <marker date="1480524273904" expanded="true" signature="15552:16839" placeholder="select benef..." />
+            <marker date="1480524273904" expanded="true" signature="17289:17490" placeholder="select i.nCo..tracion..." />
+            <marker date="1480524273904" expanded="true" signature="18088:19375" placeholder="select benef..." />
+            <marker date="1480524273904" expanded="true" signature="19825:20026" placeholder="select i.nCo..tracion..." />
+            <marker date="1480524273904" expanded="true" signature="20614:21777" placeholder="select benef..." />
+            <marker date="1480524273904" expanded="true" signature="22213:22414" placeholder="select i.nCo..tracion..." />
+            <marker date="1480524273904" expanded="true" signature="22997:24156" placeholder="select emp.n..." />
+            <marker date="1480524273904" expanded="true" signature="24930:26872" placeholder="select benef..." />
+            <marker date="1480524273904" expanded="true" signature="25229:25350" placeholder="/*, (select ..." />
+            <marker date="1480524273904" expanded="true" signature="27484:27685" placeholder="select i.nCo..tracion..." />
+            <marker date="1480524273904" expanded="true" signature="30003:30074" placeholder="select nCodI..tracion..." />
+            <marker date="1480524273904" expanded="true" signature="31221:31292" placeholder="select nCodI..tracion..." />
+            <marker date="1480524273904" expanded="true" signature="32229:32418" placeholder="select i.nCo..tracion..." />
+            <marker date="1480524273904" expanded="true" signature="32984:33207" placeholder="select i.nCo..tracion..." />
+            <marker date="1480524273904" expanded="true" signature="33744:33835" placeholder="select * fro..mPeriodo..." />
+            <marker date="1480524273904" expanded="true" signature="34397:34665" placeholder="select ent.n..dentrega..." />
+            <marker date="1480524273904" expanded="true" signature="35271:35539" placeholder="select ent.n..dentrega..." />
+            <marker date="1480524273904" expanded="true" signature="36107:36199" placeholder="select count..dbeneficiario..." />
+            <marker date="1480524273904" expanded="true" signature="36714:37857" placeholder="select apod...." />
+            <marker date="1480524273904" expanded="true" signature="38303:38550" placeholder="SELECT rac.n..tracion..." />
+            <marker date="1480524273904" expanded="true" signature="39118:40360" placeholder="select apod...." />
+            <marker date="1480524273904" expanded="true" signature="40815:41062" placeholder="SELECT rac.n..tracion..." />
+            <marker date="1480524273904" expanded="true" signature="41592:41687" placeholder="delete from ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.lib/modulo1/linkModulo1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33275864">
+          <caret line="325" column="28" selection-start-line="325" selection-start-column="22" selection-end-line="325" selection-end-column="28" />
+          <folding>
+            <marker date="1480536169535" expanded="true" signature="241:282" placeholder="select * fro..mCategorias..." />
+            <marker date="1480536169535" expanded="true" signature="472:517" placeholder="select * fro..mTipoImpresoras..." />
+            <marker date="1480536169535" expanded="true" signature="715:759" placeholder="select * fro..mTipoImpresion..." />
+            <marker date="1480536169535" expanded="true" signature="1188:1229" placeholder="select * fro..mCategorias..." />
+            <marker date="1480536169535" expanded="true" signature="1417:1462" placeholder="select * fro..mTipoImpresoras..." />
+            <marker date="1480536169535" expanded="true" signature="1660:1704" placeholder="select * fro..mTipoImpresion..." />
+            <marker date="1480536169535" expanded="true" signature="2136:2177" placeholder="select * fro..mCategorias..." />
+            <marker date="1480536169535" expanded="true" signature="2603:2644" placeholder="select * fro..mCategorias..." />
+            <marker date="1480536169535" expanded="true" signature="3064:3105" placeholder="select * fro..mCategorias..." />
+            <marker date="1480536169535" expanded="true" signature="3543:3660" placeholder="select nCodi..mPersonal..." />
+            <marker date="1480536169535" expanded="true" signature="4531:4679" placeholder="insert into `${BASEDATOS}`.mApoderado..." />
+            <marker date="1480536169535" expanded="true" signature="5465:5602" placeholder="insert into `${BASEDATOS}`.mInfante..." />
+            <marker date="1480536169535" expanded="true" signature="5931:6182" placeholder="select nCodi..mEquipos..." />
+            <marker date="1480536169535" expanded="true" signature="6040:6115" placeholder="select cCarg..mPersonal..." />
+            <marker date="1480536169535" expanded="true" signature="6684:7775" placeholder="select nCodC..mEquipos..." />
+            <marker date="1480536169535" expanded="true" signature="6746:6819" placeholder="select cDni ..mpersonal..." />
+            <marker date="1480536169535" expanded="true" signature="6838:6913" placeholder="select cCarg..mpersonal..." />
+            <marker date="1480536169535" expanded="true" signature="6934:7011" placeholder="select cNomb..mpersonal..." />
+            <marker date="1480536169535" expanded="true" signature="7059:7132" placeholder="select cDni ..mpersonal..." />
+            <marker date="1480536169535" expanded="true" signature="7151:7226" placeholder="select cCarg..mpersonal..." />
+            <marker date="1480536169535" expanded="true" signature="7247:7324" placeholder="select cNomb..mpersonal..." />
+            <marker date="1480536169535" expanded="true" signature="10686:10947" placeholder="select nCodi..tEquiposSoftware..." />
+            <marker date="1480536169535" expanded="true" signature="10764:10843" placeholder="select cDesc..mSoftware..." />
+            <marker date="1480536169535" expanded="true" signature="11158:11275" placeholder="select nCodi..mSoftware..." />
+            <marker date="1480536169535" expanded="true" signature="11738:11957" placeholder="select nCodi..tEquiposSoftware..." />
+            <marker date="1480536169535" expanded="true" signature="11787:11866" placeholder="select cDesc..mSoftware..." />
+            <marker date="1480536169535" expanded="true" signature="12505:12634" placeholder="insert into `${BASEDATOS}`.tEquiposSoftware..." />
+            <marker date="1480536169535" expanded="true" signature="13013:13130" placeholder="select count..tEquiposSoftware..." />
+            <marker date="1480536169535" expanded="true" signature="13543:13602" placeholder="delete from ..." />
+            <marker date="1480536169535" expanded="true" signature="13972:14702" placeholder="select nCodi..mEquipos..." />
+            <marker date="1480536169535" expanded="true" signature="14028:14108" placeholder="select cDesc..mCategorias..." />
+            <marker date="1480536169535" expanded="true" signature="14160:14237" placeholder="select cNomb..mPersonal..." />
+            <marker date="1480536169535" expanded="true" signature="14284:14361" placeholder="select cNomb..mPersonal..." />
+            <marker date="1480536169535" expanded="true" signature="15156:15800" placeholder="select nCodi..mEquipos..." />
+            <marker date="1480536169535" expanded="true" signature="15212:15292" placeholder="select cDesc..mCategorias..." />
+            <marker date="1480536169535" expanded="true" signature="15344:15421" placeholder="select cNomb..mPersonal..." />
+            <marker date="1480536169535" expanded="true" signature="15468:15545" placeholder="select cNomb..mPersonal..." />
+            <marker date="1480536169535" expanded="true" signature="16181:16769" placeholder="select nCodi..mEquipos..." />
+            <marker date="1480536169535" expanded="true" signature="16237:16317" placeholder="select cDesc..mCategorias..." />
+            <marker date="1480536169535" expanded="true" signature="16369:16446" placeholder="select cNomb..mPersonal..." />
+            <marker date="1480536169535" expanded="true" signature="16493:16570" placeholder="select cNomb..mPersonal..." />
+            <marker date="1480536169535" expanded="true" signature="17109:18001" placeholder="select nCodi..mEquipos..." />
+            <marker date="1480536169535" expanded="true" signature="17165:17245" placeholder="select cDesc..mCategorias..." />
+            <marker date="1480536169535" expanded="true" signature="17297:17374" placeholder="select cNomb..mPersonal..." />
+            <marker date="1480536169535" expanded="true" signature="17421:17498" placeholder="select cNomb..mPersonal..." />
+            <marker date="1480536169535" expanded="true" signature="17608:17696" placeholder="select cDesc..mTipoImpresoras..." />
+            <marker date="1480536169535" expanded="true" signature="17753:17840" placeholder="select cDesc..mTipoImpresion..." />
+            <marker date="1480536169535" expanded="true" signature="18397:19127" placeholder="select nCodi..mEquipos..." />
+            <marker date="1480536169535" expanded="true" signature="18453:18533" placeholder="select cDesc..mCategorias..." />
+            <marker date="1480536169535" expanded="true" signature="18585:18662" placeholder="select cNomb..mPersonal..." />
+            <marker date="1480536169535" expanded="true" signature="18709:18786" placeholder="select cNomb..mPersonal..." />
+            <marker date="1480536169535" expanded="true" signature="19570:20110" placeholder="select nCodi..mEquipos..." />
+            <marker date="1480536169535" expanded="true" signature="19626:19706" placeholder="select cDesc..mCategorias..." />
+            <marker date="1480536169535" expanded="true" signature="19758:19835" placeholder="select cNomb..mPersonal..." />
+            <marker date="1480536169535" expanded="true" signature="19882:19959" placeholder="select cNomb..mPersonal..." />
+            <marker date="1480536169535" expanded="true" signature="20662:20725" placeholder="select * fro..mApoderado..." />
+            <marker date="1480536169535" expanded="true" signature="21259:21577" placeholder="select i.nCo..mInfante..." />
+            <marker date="1480536169535" expanded="true" signature="22089:22349" placeholder="select apod...mApoderado..." />
+            <marker date="1480536169535" expanded="true" signature="22775:23180" placeholder="select inf.c..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,65 @@
+<br>
+<div class="mod-header">
+    <h3 class="mod-header-label">Agregar empadronado</h3>
+</div>
+
+<div id="body1" class="mod-body">
+    <div class="mod-body-controls">
+        <input type="text" id="buscarDniPers" class="mod-body-input-search" maxlength="8" onkeypress="return soloNumeros(event);" placeholder="Ingrese DNI apoderado">
+        <button type="button" id="buscar2" class="button-search btn btn-warning" onClick="buscarPersona(1)"><span class="glyphicon glyphicon-search"></span></button>
+        <label>&nbsp;</label>
+        <label id="msjBusquedaDni" class="mod-body-labeldanger">&bull;El DNI ingresado a&uacute;n no se encuentra registrado, registrelo antes de empadronar.</label>
+    </div>
+</div>
+
+<div id="body2" class="mod-body-hide">
+    <div class="mod-bodyleft">
+        <div class="mod-body-controls">
+             <input type="hidden" id="nCodApod" class="mod-body-input">
+            <label class="mod-body-label">Nombre Empadronado</label>
+            <!--select id="newvideo" class="mod-body-input" onChange="cambiarVideo(this)">
+                    <option value="0">-- Seleccione --</option>
+                    <option value="1">S&iacute;</option>
+                    <option value="2">No</option>
+            </select>
+            <label id="msjvideo" class="mod-body-labeldanger">&bull; Debe seleccionar una opci&oacute;n</label-->
+            <input type="text" id="cNomApod" class="mod-body-input" placeholder="Nombre Beneficiario" readonly="">
+            <label id="msjNombre" class="mod-body-labeldanger">&bull;Este campo es obligatorio</label>
+        </div>
+        <div class="mod-body-controls">
+            <div class="mod-body-controls">
+                 <label class="mod-body-label">Categor&iacute;a</label>
+                <select id="selectCategoria" class="mod-body-input" onChange="validarCategoria(this)">
+                    <option value="0">-- Seleccione --</option>
+
+                </select>
+                <label id="msjCategoria" class="mod-body-labeldanger">&bull; Este campo es obligatorio</label>
+            </div>
+        </div>
+    </div>
+
+    <div class="mod-bodyright">
+        <div class="mod-body-controls">
+             <label class="mod-body-label">Periodo</label>
+            <select id="selectPeriodo" class="mod-body-input">
+                <option value="0">-- Seleccione --</option>
+
+            </select>
+            <label id="msjPeriodo" class="mod-body-labeldanger">&bull; Este campo es obligatorio</label>
+        </div>
+        
+        <div class="mod-body-controls">
+            <label class="mod-body-label">Ni&ntilde;o Beneficiado</label>
+            <select id="selectInfant" class="mod-body-input">
+                <option value="0">-- Seleccione --</option>
+
+            </select>
+            <label id="msjInfante" class="mod-body-labeldanger">&bull; Este campo es obligatorio</label>
+        </div>
+    </div>
+</div>
+
+<div class="mod-footer-hide" id="btnAgregar">
+    <button type="button" id="ingresar" class="button btn btn-danger" onClick="validarSubMod1()"><span class="glyphicon glyphicon-ok"></span>  Agregar Empadronado</button>
+</div>
+<br>

@@ -1,0 +1,36 @@
+<br>
+	<div class="mod-header">
+		<h3 class="mod-header-label">Agregar Periodo</h3>
+	</div>
+
+	<div id="mod-body1" class="mod-body">
+		<div id="mod-body1left" class="mod-bodyleft">
+			<div class="mod-body-controls">
+				<label class="mod-body-label">Ingresar Periodo</label>
+				<input class="mod-body-input" id="cNomPeriodo"  placeholder="Ejemplo de Periodo: 2017-I">
+				<label id="msjPeriodo" class="mod-body-labeldanger">&bull; Este campo es obligatorio</label>
+			</div>
+		</div>
+
+		<div class="mod-bodyright">
+
+			<div class="mod-body-controls">
+				<input type="hidden" id="nCodApod" class="mod-body-input">
+				<label class="mod-body-label">Cantidad Beneficiarios</label>
+				<input type="text" id="nCantBenef" class="mod-body-input" maxlength="4" onkeypress="return soloNumeros(event);"  placeholder="Ingrese cantidad de Beneficiarios por Periodo">
+				<label id="msjCantidad" class="mod-body-labeldanger">&bull;Este campo es obligatorio</label>
+
+			</div>
+		</div>
+
+		
+	</div>
+
+	<div id="mod-body2" class="mod-body-hide">
+		
+	</div>
+
+	<div id="mod-footer" class="mod-footer">
+		<button type="button" id="ingresar" class="button btn btn-danger" onClick="validarSubMod1()"><span class="glyphicon glyphicon-ok"></span>  Agregar Periodo</button>
+	</div>
+<br>

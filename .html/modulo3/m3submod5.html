@@ -1,0 +1,111 @@
+<br id="spaceBlank1">
+<div id="mod-header" class="mod-header">
+    <h3 class="mod-header-label">Reportes</h3>
+    <input type="hidden" id="nCodEntrega">
+</div>
+
+<div id="body1" class="mod-body">
+    <div class="mod-bodyleft">
+        <div class="mod-body-controls">
+            <label class="mod-body-label">Seleccion reporte a ejecutar</label>
+            <select id="selectReporte" class="mod-body-input" onchange="mostrarOpciones3(this);">
+                <option value="0">-- Seleccione --</option>
+                <option value="1">Reporte General de Raciones entregadas por Mes</option>
+                <option value="2">Reporte de Insumos</option>
+            </select>
+            <label id="msjReporte" class="mod-body-labeldanger">&bull; Este campo es obligatorio</label>
+        </div>
+        <div class="mod-body-controls">
+            <button type="button" id="mod-btnGenerar" class="button btn btn-warning report-button"
+                    title="Generar Reporte" onClick="cargarReporte3()"><span class="glyphicon glyphicon-file"></span>
+            </button>
+            <button type="button" id="mod-btnImprimir" class="button btn btn-danger report-button"
+                    title="Imprimir Reporte" onClick="imprimirReporte3()"><span class="glyphicon glyphicon-print"></span>
+            </button>
+        </div>
+    </div>
+
+    <div class="mod-bodyright">
+
+        <div class="row">
+
+            <div class="col-sm-6 col-xs-12">
+
+                <div id="divPeriodo" class="mod-body-controls-hide">
+                    <label class="mod-body-label">Seleccion periodo</label>
+                    <select id="selectPeriodo" class="mod-body-input" onChange="cargarEntregaPorPeriodo(this)">
+                        <option value="0">-- Seleccione --</option>
+
+                    </select>
+                    <label id="msjPeriodo" class="mod-body-labeldanger">&bull; Este campo es obligatorio</label>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+<div id="body2" class="mod-body-hide">
+    <div class="mod-body-controls">
+        <div class="row" style="text-align: center">
+            <label id="mod-bodyreport-label" class="mod-body-label">REPORTE GENERAL DE ENTREGAS MENSUAL POR PERIODO</label>
+        </div>
+
+        <table id="tablaReporte" class="mod-tablereporte">
+            <thead>
+            <tr>
+                <th style="text-align:center" width="20<" colspan="2" scope="col">Periodo</th>
+                <th style="text-align:center" width="20%" colspan="2" scope="col">Empadronados</th>
+                <th style="text-align:center" width="20%" colspan="2" scope="col">Beneficiarios</th>
+                <th style="text-align:center" width="20%" colspan="2" scope="col">Entregados</th>
+                <th style="text-align:center" width="20%" rowspan="2" scope="col">Raci&oacute;n</th>
+            </tr>
+            <tr>
+                <th style="text-align:center">A&ntilde;o</th>
+                <th style="text-align:center">Mes</th>
+                <th style="text-align:center">Total</th>
+                <th style="text-align:center">Espera</th>
+                <th style="text-align:center">Actual</th>
+                <th style="text-align:center">M&aacute;ximo</th>
+                <th style="text-align:center">Si</th>
+                <th style="text-align:center">No</th>
+            </tr>
+
+            </thead>
+            <tbody id="tablebody">
+            </tbody>
+        </table>
+
+    </div>
+</div>
+
+<div id="body3" class="mod-body-hide">
+    <div class="mod-body-controls">
+        <div class="row" style="text-align: center">
+            <label id="mod-bodyreport-label1" class="mod-body-label">REPORTE DE INSUMOS</label>
+        </div>
+
+        <table id="tablaReporte1" class="mod-tablereporte">
+            <thead>
+            <tr>
+                <th style="text-align:center" width="60%">Descripci&oacute;n</th>
+                <th style="text-align:center" width="40%">Cantidad</th>
+
+            </tr>
+
+            </thead>
+            <tbody id="tablebody1">
+            </tbody>
+        </table>
+
+    </div>
+</div>
+
+
+<div id="crearEntrega" class="mod-footer-hide">
+    <button type="button" id="crear" class="button btn btn-danger" onClick="validarSubMod4()"><span
+            class="glyphicon glyphicon-ok"></span> Crear
+    </button>
+</div>
+<br id="spaceBlank2">
